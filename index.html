@@ -8,69 +8,27 @@
     <title>deepest</title>
     <link href="https://fonts.googleapis.com/css2?family=Zuume+Rough:wght@700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./assets/images/BDSSS BLANCCC.JPEG.jpg" type="image/svg+xml" style="border-radius: 100%;">
-    <link rel="stylesheet" href="/assets/css/main.css">
- >
+    <link rel="stylesheet" href="/assets/css/components/header.css">
+ 
 
 </head>
 
-<body>
-    
+<body>   
     <header class="header" data-header>
         <div class="container">
-
+    
             <div class="overlay" data-overlay></div>
-
+    
             <a href="#" class="logo">
                 <img src="/assets/images/logo.png" alt="Ridex logo" style="width:50px;">
             </a>
-
+    
             <nav class="navbar" data-navbar>
                 <ul class="navbar-list">
-
-                    <li>
-                        <a href="/" class="navbar-link" data-nav-link>Home</a>
-                    </li>
-
-                    <li>
-                        <a href="/pages/catalogues.html" class="navbar-link" data-nav-link>Explor media</a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="navbar-link" data-nav-link>About us</a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="navbar-link" data-nav-link>Blog</a>
-                    </li>
-
                 </ul>
             </nav>
-
-            <div class="header-actions">
-
-                <div class="header-contact">
-                    <a href="tel:+243 903 470 559" class="contact-link">+243 903 470 559</a>
-
-                    <span class="contact-time">Mon - Sat: 9:00 am - 6:00 pm</span>
-                </div>
-
-                <a href="#featured-car" class="btn" aria-labelledby="aria-label-txt">
-                    <ion-icon name="cart-outline"></ion-icon> <!-- panier vide -->
-                    <span id="aria-label-txt">Explore shoes</span>
-                </a>
-
-                <a href="mailto:cmklucas99@gmail.com" class="btn user-btn" aria-label="Profile">
-                    <ion-icon name="mail-outline"></ion-icon> <!-- contour d’enveloppe -->
-                </a>
-
-                <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
-                    <span class="one"></span>
-                    <span class="two"></span>
-                    <span class="three"></span>
-                </button>
-
-            </div>
-
+            </button>
+    
         </div>
     </header>
 
@@ -91,7 +49,8 @@
         </a>
     </div>
     <div class="newsletter">
-        <form action="https://formspree.io/f/mzzeqebj" method="post">
+        <h2>Inscrivez-vous à notre newsletter</h2>
+        <form action="https://formspree.io/f/mzzeqebj" method="post" class="flex gap-1 align-center">
             <input type="email" id="email" name="email" placeholder="Entrez votre email" required>
             <button type="submit">S'inscrire</button>
         </form>
